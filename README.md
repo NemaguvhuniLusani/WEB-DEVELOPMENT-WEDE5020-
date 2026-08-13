@@ -10,6 +10,12 @@ ST10519083 Nemaguvhuni Lusani
 Goal: The main goal of Shelfie is to sell books online and in-store, increase monthly sales and provide customers with an easy platform to browse, order and receive books. 
 KPIs: We will track success using websites sales, number of orders, site traffic and customer satisfaction ratings.
 
+## Key Features and Functionality
+• Browse different types of books
+• Contact/enquiry Section
+• Comment on enquiry section
+
+
 ## Timeline and Milestones
 •	Week 1: Plan the website and gather requirements.
 •	Week 2: Create the HTML structure and main pages.
