@@ -1,0 +1,176 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: rgb(121, 240, 220);
+}
+
+h1 {
+    color: rgb(236, 239, 157);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgb(6, 211, 211);
+}
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+h2{
+    padding: 25px;
+}
+
+h4 {
+    color: rgb(54, 231, 210);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding: 30px;
+   
+}
+
+.responsive-image {
+    
+    height: 400px;
+    max-width: 500px;
+}
+
+.logo-image{
+    height: auto;
+    max-width: 150px;
+    border-radius: 90px;
+    padding: 3px;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.info-box {
+    background-color: rgb(255, 248, 222);
+    margin: 5px;
+    padding: 20px;
+    color: rgb(129, 124, 124);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+}
+
+.book-table {
+    background-color: rgb(255, 248, 222);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+.aboout-container{
+    width: 90%;
+margin: 20px auto;
+display: grid;
+grid-template-columns: auto auto;
+gap: 20px;
+}
+.about-box {
+background-color: rgb(255, 248, 222);
+padding: 25px;
+border-radius: 15px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+about-box h3 {
+color: rgb(54, 231, 210);
+font-size: 25px;
+margin-bottom: 15px;
+}
+
+.about-box p {
+color: rgb(129, 124, 124);
+font-size: 16px;
+line-height: 1.6;
+}
+footer {
+background-color: rgba(180, 91, 8, 0.777);
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 50px;
+}
+
+
+@media screen and (max-width: 789px) {
+body{
+    background-color: rgb(247, 247, 230);
+}
+.container {
+    background-color: rgb(255, 255, 255);
+        grid-template-columns: inline-grid;
+        grid-template-columns: auto auto auto;
+}
+
+h1 {
+        font-size: 30px;
+}
+h2 {
+        font-size: 20px;
+    }
+.about-container { 
+grid-template-columns: auto; 
+} 
+.about-box h3 { 
+    font-size: 22px; 
+}
+
+}
+
+@media screen and (max-width: 480px) {
+body{
+    background-color: rgb(182, 243, 253);
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+nav ul{
+    flex-direction: column;
+}
+nav ul li a{
+    display: block;
+}
+
+h1 {
+        font-size: 20px;
+}
+h2 {
+        font-size: 15px;
+    }
+.about-container { 
+ width: 95%; 
+} 
+ .about-box { 
+ padding: 20px; 
+} 
+.about-box h3 { 
+    font-size: 20px; 
+} 
+.about-box p { 
+ font-size: 14px; 
+}
+
+}
