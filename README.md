@@ -14,6 +14,11 @@ KPIs: We will track success using websites sales, number of orders, site traffic
 • Browse different types of books
 • Contact/enquiry Section
 • Comment on enquiry section
+• Easy navigation between pages
+• Responsive design for different screen sizes
+• View book categories and images
+
+
 
 
 ## Timeline and Milestones
@@ -32,7 +37,7 @@ Services page
 Contact-Us
 
 ## Changelog
-added logo, navigation, website content
+added logo, navigation, website content, book categories and images, responsive styling
 
 ## References
 1.	Nielsen, J. and Loranger, H. (2014) Prioritizing Web Usability. 
